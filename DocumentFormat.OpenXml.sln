@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A756D2A9-1A63-4C5F-8325-E2BF840D3340}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FAF78486-5194-482C-9748-83E1B5E174D8}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DocumentFormat.OpenXml", "src\DocumentFormat.OpenXml\DocumentFormat.OpenXml.xproj", "{6D3A51BF-8B47-4055-B951-8AD6784B274D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Utility.Xml", "src\Utility.Xml\Utility.Xml.xproj", "{436D1483-3FB3-4786-A05A-F1A2A020CC64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D3A51BF-8B47-4055-B951-8AD6784B274D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D3A51BF-8B47-4055-B951-8AD6784B274D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D3A51BF-8B47-4055-B951-8AD6784B274D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D3A51BF-8B47-4055-B951-8AD6784B274D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{436D1483-3FB3-4786-A05A-F1A2A020CC64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436D1483-3FB3-4786-A05A-F1A2A020CC64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436D1483-3FB3-4786-A05A-F1A2A020CC64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436D1483-3FB3-4786-A05A-F1A2A020CC64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D3A51BF-8B47-4055-B951-8AD6784B274D} = {A756D2A9-1A63-4C5F-8325-E2BF840D3340}
+		{436D1483-3FB3-4786-A05A-F1A2A020CC64} = {A756D2A9-1A63-4C5F-8325-E2BF840D3340}
+	EndGlobalSection
+EndGlobal

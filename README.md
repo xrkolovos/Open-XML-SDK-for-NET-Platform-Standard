@@ -1,3 +1,7 @@
+#My way of "How to use it"
+Clone this code and build it. Copy the generated nuget files in a folder(from both 2 projects). Then add this folder in nuget feeds like this -> [hosting-your-own-nuget-feeds](https://docs.nuget.org/create/hosting-your-own-nuget-feeds)
+Then you can add this packages like any others.
+
 # Open XML SDK for NET Platform Standard 3 & .net Core
 a NET Platform Standard implementation of Open XML SDK 2.5 
 

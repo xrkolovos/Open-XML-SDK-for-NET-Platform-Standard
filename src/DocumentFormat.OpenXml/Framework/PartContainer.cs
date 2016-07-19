@@ -1312,7 +1312,7 @@ namespace DocumentFormat.OpenXml.Packaging
             ThrowIfObjectDisposed();
 
             // use reflection to create the instance. As the default contructor of part is not "public"
-            T part = (T)Activator.CreateInstance(typeof(T), true);
+            T part = (T)Activator.CreateInstance(typeof(T));
 
             try
             {

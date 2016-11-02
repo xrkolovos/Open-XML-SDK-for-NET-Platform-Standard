@@ -1,5 +1,5 @@
 {
-  "version": "2.5.1-1",
+  "version": "2.5.2-*",
   "dependencies": {
     "System.Runtime.Serialization.Json": "4.0.2",
     "Utility.Xml": "1.0.0-*"
@@ -22,7 +22,7 @@
     //    }
     //  },
     //},
-    "netstandard1.4": {
+    "netstandard1.5": {
       "imports": "dotnet56",
       "dependencies": {
         "NETStandard.Library": "1.6.0",

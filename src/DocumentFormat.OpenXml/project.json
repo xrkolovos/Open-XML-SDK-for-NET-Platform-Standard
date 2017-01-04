@@ -1,20 +1,19 @@
 {
-  "version": "2.5.2-*",
+  "version": "2.5.3",
   "dependencies": {
-    "System.Runtime.Serialization.Json": "4.0.2",
-    "Utility.Xml": "1.0.0-*"
+    "Utility.Xml": "1.0.1-*"
   },
   "frameworks": {
     //"net46": {
     //  "frameworkAssemblies": {
-    //    "System.IO": "4.0.10",
-    //    "System.IO.Compression": "4.0.0.0",
-    //    "System.Linq": "4.0.0",
-    //    "System.Reflection": "4.0.10",
-    //    "System.Runtime.Serialization": "4.0.0.0",
-    //    "System.Xml": "4.0.0",
-    //    "System.Xml.Linq": "4.0.0.0",
-    //    "System.Xml.Serialization": "4.0.0.0"
+    //    "System.IO": "4.3.0",
+    //    "System.IO.Compression": "4.3.0",
+    //    "System.Linq": "4.3.0",
+    //    "System.Reflection": "4.3.0",
+    //    "System.Runtime.Serialization": "4.3.0",
+    //    "System.Xml": "4.3.0",
+    //    "System.Xml.Linq": "4.3.0",
+    //    "System.Xml.Serialization": "4.3.0"
     //  },
     //  "dependencies": {
     //    "System.IO.PackagingNet": {
@@ -25,24 +24,25 @@
     "netstandard1.5": {
       "imports": "dotnet56",
       "dependencies": {
-        "NETStandard.Library": "1.6.0",
-        "System.IO.Packaging": "4.0.0",
-        "System.Collections.NonGeneric": "4.0.1",
-        "System.Private.DataContractSerialization": "4.1.1",
-        "System.Resources.ResourceManager": "4.0.1",
-        "System.Runtime.Serialization.Formatters": "4.0.0-rc3-24212-01",
-        "System.Runtime.Serialization.Primitives": "4.1.1",
-        "System.Runtime.Serialization.Xml": "4.1.1",
-        "System.Xml.ReaderWriter": "4.0.11",
-        "System.Xml.XmlSerializer": "4.0.11",
-        "System.Xml.XmlDocument": "4.0.1",
-        "System.Xml.XDocument": "4.0.11",
-        "System.Reflection": "4.1.0",
-        "System.Reflection.TypeExtensions": "4.1.0",
-        "System.Runtime.InteropServices": "4.1.0",
-        "System.Reflection.Extensions": "4.0.1",
-        "System.Reflection.Primitives": "4.0.1",
-        "System.Collections.Specialized": "4.0.1"
+        "NETStandard.Library": "1.6.1",
+        "System.IO.Packaging": "4.3.0",
+        "System.Collections.NonGeneric": "4.3.0",
+        "System.Private.DataContractSerialization": "4.3.0",
+        "System.Resources.ResourceManager": "4.3.0",
+        "System.Runtime.Serialization.Formatters": "4.3.0",
+        "System.Runtime.Serialization.Primitives": "4.3.0",
+        "System.Runtime.Serialization.Json": "4.3.0",
+        "System.Runtime.Serialization.Xml": "4.3.0",
+        "System.Xml.ReaderWriter": "4.3.0",
+        "System.Xml.XmlSerializer": "4.3.0",
+        "System.Xml.XmlDocument": "4.3.0",
+        "System.Xml.XDocument": "4.3.0",
+        "System.Reflection": "4.3.0",
+        "System.Reflection.TypeExtensions": "4.3.0",
+        "System.Runtime.InteropServices": "4.3.0",
+        "System.Reflection.Extensions": "4.3.0",
+        "System.Reflection.Primitives": "4.3.0",
+        "System.Collections.Specialized": "4.3.0"
       }
     }
   },
